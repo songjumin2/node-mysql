@@ -1,6 +1,6 @@
 const connection = require("../db/mysql_connection");
 const express = require("express");
-
+//주석추가
 // @desc   좋아하는 영화 추가
 // @route  POST /api/v1/favorites  (post는 body에 담겨있다, parameters는 바디에 담아오는건데 user_id는 해더에 담겨서 일단 movie_id만 가져온다 )
 // @parameters movie_id  (user_id 해킹대비해서 암호화 되어야함 토큰은 해더에 담아서 온다, user_id는 미들웨어가 해줘야함 auth가 함)
